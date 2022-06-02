@@ -10,7 +10,7 @@
       "regexp": "[A-Z][a-z]{5,10}"
     },
     "isActive": {
-      "boolean": {},
+      "boolean": {}
     },
     "lastLogin": {
       "dateTime": {
@@ -19,7 +19,7 @@
       }
     },
     "groups": {
-      "hasMany": "UserGroup",
+      "hasMany": "UserGroup"
     }
   },
   "UserGroup": {
