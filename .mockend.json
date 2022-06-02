@@ -30,10 +30,7 @@
       "regexp": "[A-Z][a-z]{5,10}"
     },
     "access_rights": {
-      "string": [
-        {"experiments": "view"},
-        {"branches": "view"}
-      ]
+      "string": ["VIEWER"]
     },
     "users": {
       "hasMany": "User"
