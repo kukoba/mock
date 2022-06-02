@@ -32,11 +32,11 @@
     "access_rights": {
       "string": [
         {"experiments": "view"},
-        {"branches": "view"},
-      ],
+        {"branches": "view"}
+      ]
     },
     "users": {
-      "hasMany": "User",
+      "hasMany": "User"
     }
   }
 }
