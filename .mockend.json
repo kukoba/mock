@@ -19,21 +19,7 @@
       }
     },
     "groups": {
-      "hasMany": "UserGroup"
-    }
-  },
-  "UserGroup": {
-    "id": {
       "int": { "min": 1, "max": 1000000 }
-    },
-    "name": {
-      "regexp": "[A-Z][a-z]{5,10}"
-    },
-    "access_rights": {
-      "string": ["VIEWER"]
-    },
-    "users": {
-      "hasMany": "User"
     }
   }
 }
